@@ -1,6 +1,6 @@
 <?php
 
-include('database.php');
+include('tconnect.php');
 
 
 if(isset($_POST["vote_option"]))

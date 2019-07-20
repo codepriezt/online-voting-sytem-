@@ -2,7 +2,7 @@
 
 //fetching vote_data
 
-include('database.php');
+include('tconnect.php');
 
 
 $vote_candidates = array("O J","ziks","bams","ebuka"); 
