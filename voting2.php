@@ -63,11 +63,6 @@
             </div>
 
 
-
-
-
-
-
             </form>
             <?php
 
@@ -75,7 +70,7 @@
             $con = mysqli_connect("localhost", "root", "", "vote");
 
             if (isset($_POST['oj'])) {
-                $vote_oj = "update votes set oj = oj+1";
+                $vote_oj = "update voting set oj = oj+1";
                 $run_oj = mysqli_query($con, $vote_oj);
 
                 if ($run_oj) {
@@ -85,7 +80,7 @@
                 }
             }
             if (isset($_POST['bams'])) {
-                $vote_bams = "update votes set bams = bams+1";
+                $vote_bams = "update voting set bams = bams+1";
                 $run_bams = mysqli_query($con, $vote_bams);
 
                 if ($run_bams) {
@@ -96,7 +91,7 @@
             }
 
             if (isset($_POST['ebuka'])) {
-                $vote_ebuka = "update votes set ebuka = ebuka+1";
+                $vote_ebuka = "update voting set ebuka = ebuka+1";
                 $run_ebuka = mysqli_query($con, $vote_ebuka);
 
                 if ($run_ebuka) {
@@ -107,7 +102,7 @@
             }
 
             if (isset($_POST['ziks'])) {
-                $vote_ziks = "update votes set ziks = ziks+1";
+                $vote_ziks = "update voting set ziks = ziks+1";
                 $run_ziks = mysqli_query($con, $vote_ziks);
 
                 if ($run_ziks) {
