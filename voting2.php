@@ -59,7 +59,7 @@
             <hr>
             <hr>
             <div>
-                <h3 align="center"><a href="polling.php?result">See Result</a></h3>
+                <h3 align="center"><a href="voting2.php?result">See Result</a></h3>
             </div>
 
 
@@ -81,7 +81,7 @@
                 if ($run_oj) {
                     echo "<h2 align= 'center'> Your Vote  has been casted for O j!</h2>";
 
-                    echo "<h2 align ='center'><a href='polling.php?results'>View Results</a></h2>";
+                    echo "<h2 align ='center'><a href='voting2.php?results'>View Results</a></h2>";
                 }
             }
             if (isset($_POST['bams'])) {
@@ -91,7 +91,7 @@
                 if ($run_bams) {
                     echo "<h2 align= 'center'> Your Vote  has been casted for Bams!</h2>";
 
-                    echo "<h2 align ='center'><a href='polling.php?results'>View Results</a></h2>";
+                    echo "<h2 align ='center'><a href='voting2.php?results'>View Results</a></h2>";
                 }
             }
 
@@ -102,7 +102,7 @@
                 if ($run_ebuka) {
                     echo "<h2 align= 'center'> Your Vote  has been casted for ebuka !</h2>";
 
-                    echo "<h2 align ='center'><a href='polling.php?results'>View Results</a></h2>";
+                    echo "<h2 align ='center'><a href='polling2.php?results'>View Results</a></h2>";
                 }
             }
 
@@ -113,7 +113,7 @@
                 if ($run_ziks) {
                     echo "<h2 align= 'center'> Your Vote  has been casted for ziks!</h2>";
 
-                    echo "<h2 align ='center'><a href='polling.php?results'>View Results</a></h2>";
+                    echo "<h2 align ='center'><a href='voting2.php?results'>View Results</a></h2>";
                 }
             }
 
